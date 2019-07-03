@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: lexnlp
+Version: 0.2.6
+Summary: LexPredict LexNLP
+Home-page: https://contraxsuite.com
+Author: ContraxSuite, LLC
+Author-email: support@contraxsuite.com
+License: AGPL
+Keywords: legal contract document analytics nlp ml machine learning natural language
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Legal Industry
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Natural Language :: English
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Dist: datefinder-lexpredict (==0.6.2)
+Requires-Dist: dateparser (==0.7.0)
+Requires-Dist: gensim (==3.4.0)
+Requires-Dist: nltk (==3.2.4)
+Requires-Dist: num2words (==0.5.5)
+Requires-Dist: pandas (==0.23.4)
+Requires-Dist: pycountry (==18.5.26)
+Requires-Dist: regex (==2017.9.23)
+Requires-Dist: reporters-db (==1.0.12.1)
+Requires-Dist: requests (==2.21.0)
+Requires-Dist: scipy (==1.0.0)
+Requires-Dist: scikit-learn (==0.19.1)
+Requires-Dist: typing (==3.6.2)
+Requires-Dist: Unidecode (==0.4.21)
+Requires-Dist: us (==1.0.0)
+Provides-Extra: dev
+Requires-Dist: pytest (>=2.8.5) ; extra == 'dev'
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: pytz (>=2015.7) ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest (>=2.8.5) ; extra == 'test'
+Requires-Dist: mock ; extra == 'test'
+Requires-Dist: pytz (>=2015.7) ; extra == 'test'
+
+LexPredict LexNLP: A swiss-army knife library built for working with real, unstructured legal text.
+
+
